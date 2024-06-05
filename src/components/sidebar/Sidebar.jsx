@@ -22,27 +22,30 @@ function Sidebar() {
 
       <div className="center">
         <ul>
-          <p>MAIN</p>
+          <p className='titles'>MAIN</p>
           <li><DashboardIcon/><span> Dashboard</span></li>
-          <p>LISTS</p>
+          <p className='titles'>LISTS</p>
           <li><PersonIcon/><span>Users</span></li>
           <li><Inventory2Icon/><span>Products</span></li>
           <li><ShoppingCartIcon/><span>Orders</span></li>
           <li><LocalShippingIcon/><span>Delivery</span></li>
-          <p>USEFUL</p>
+          <p className='titles'>USEFUL</p>
           <li><TrendingUpIcon/><span>Stats</span></li>
           <li><NotificationsActiveIcon/><span>Notifications</span></li>
-          <p>SERVICE</p>
+          <p className='titles'>SERVICE</p>
           <li><DnsIcon/><span>System Health</span></li>
           <li><PsychologyIcon/><span>Logs</span></li>
           <li><SettingsIcon/><span>Settings</span></li>
-          <p>USER</p>
+          <p className='titles'>USER</p>
           <li><AccountCircleIcon/><span>Profile</span></li>
           <li><ExitToAppIcon/><span>Logout</span></li>
         </ul>
       </div>
 
-      <div className="bottom"></div>
+      <div className="bottom">
+        <div className="coloroption"></div>
+        <div className="coloroption"></div>
+      </div>
     </div>
   )
 }

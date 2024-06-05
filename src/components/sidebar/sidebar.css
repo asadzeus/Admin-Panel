@@ -24,26 +24,61 @@
 .center{
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
 }
-
-
 
 li{
     display: flex;
     justify-content: left;
     align-items: center;
-    gap: 5px;
+    gap: 10px;
     cursor: pointer;
+    margin-top: 5px;
+    border-radius: 10px;
+    padding: 5px 20px;
 }
 
+li:hover{
+    background-color: lightblue;
+}
 
-p{
+.titles{
     font-family: 'Courier New', Courier, monospace;
+    font-size: 14px;
     font-weight: bold;
-    margin-top: 13px;
-    margin-bottom: 6px;
+    margin-top: 6px;
+    margin-bottom: 4px;
     display: block;
-    margin-right: 20px;
     width: 100%;
+    border-bottom: 2px solid lightgray;
+    padding: 3px;
+}
+
+span{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.bottom{
+    height: 50px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.coloroption{
+    background-color: white;
+    cursor: pointer;
+    height: 30px;
+    width: 30px;
+    border: 2px solid rgb(46, 46, 46);
+    border-radius: 8px;
+    
+}
+
+.coloroption:nth-child(2){
+    background-color: rgb(32, 32, 32);
+
 }
