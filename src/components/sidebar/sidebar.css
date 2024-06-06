@@ -4,6 +4,11 @@
     min-height: 100vh;
     background-color: white;
 }
+.ubuntu-medium {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
 
 .top{
     height: 50px;
@@ -14,11 +19,10 @@
 }
 
 .logo{
-    color: blueviolet;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(19, 19, 19);
+    font-family: "Ubuntu";
     font-size: 20px;
     font-weight: bold;
-    
 }
 
 .center{
@@ -36,7 +40,7 @@ li{
     cursor: pointer;
     margin-top: 5px;
     border-radius: 10px;
-    padding: 5px 20px;
+    padding: 4px 20px;
 }
 
 li:hover{
