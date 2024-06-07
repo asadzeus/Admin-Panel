@@ -1,5 +1,5 @@
 .featured{
-  flex: 4;
+  flex: 3;
   padding: 10px;
 border-radius: 10px;
   box-shadow: 0px 3px 23px -7px rgba(58,58,58,0.37);
@@ -7,17 +7,79 @@ border-radius: 10px;
 -moz-box-shadow: 0px 3px 23px -7px rgba(58,58,58,0.37);
 }
 
-.top{
+.ftop{
   display: flex;
   align-items: center;
   justify-content: space-between; 
 }
 
-.title{
+.ftitle{
   color: rgb(128, 128, 128);
-  font-size: x-large;
+  font-family: "Ubuntu";
+  font-size: 25px;
 }
 
 .icon{
   font-size: small;
+}
+
+.fbottom{
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+
+.featuredChart{
+  width: 100px;
+  height: 100px;
+}
+
+.ftitle2{
+  color: rgb(128, 128, 128);
+  font-weight: 400;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.famount{
+  font-size: 45px;
+}
+
+.fdesc{
+  color: rgb(128, 128, 128);
+  text-align: center;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.summary{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.sitem{
+
+  text-align: center;
+}
+
+.itemTitle{
+  color: rgb(128, 128, 128);
+}
+
+.itemResult{
+  display: flex;
+  align-items: center;
+  margin: 5px;
+}
+
+.itemResult.positive{
+  color: green;
+}
+
+.itemResult.negative{
+  color: red;
 }
