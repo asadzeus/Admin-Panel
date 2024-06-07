@@ -1,4 +1,15 @@
 .chart{
     flex: 5;
-    
+    box-shadow: 0px 3px 23px -7px rgba(58,58,58,0.37);
+    -webkit-box-shadow: 0px 3px 23px -7px rgba(58,58,58,0.37);
+    -moz-box-shadow: 0px 3px 23px -7px rgba(58,58,58,0.37);
+    color: rgb(128, 128, 128);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.ctitle{
+    font-family: "Ubuntu";
+    margin-bottom: 20px;
+    font-weight: 500;
 }

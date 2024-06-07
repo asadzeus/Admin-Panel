@@ -68,8 +68,9 @@ span{
     margin-top: 10px;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: left;
     gap: 20px;
+    margin: 10px 40px;
 }
 
 .coloroption{

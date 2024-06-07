@@ -1,29 +1,31 @@
-.featured{
+.featured {
   flex: 3;
   padding: 10px;
-border-radius: 10px;
-  box-shadow: 0px 3px 23px -7px rgba(58,58,58,0.37);
--webkit-box-shadow: 0px 3px 23px -7px rgba(58,58,58,0.37);
--moz-box-shadow: 0px 3px 23px -7px rgba(58,58,58,0.37);
+  border-radius: 10px;
+  box-shadow: 0px 3px 23px -7px rgba(58, 58, 58, 0.37);
+  -webkit-box-shadow: 0px 3px 23px -7px rgba(58, 58, 58, 0.37);
+  -moz-box-shadow: 0px 3px 23px -7px rgba(58, 58, 58, 0.37);
 }
 
-.ftop{
+.ftop {
   display: flex;
   align-items: center;
-  justify-content: space-between; 
+  justify-content: space-between;
 }
 
-.ftitle{
+.ftitle {
   color: rgb(128, 128, 128);
   font-family: "Ubuntu";
-  font-size: 25px;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 10px;
 }
 
-.icon{
+.icon {
   font-size: small;
 }
 
-.fbottom{
+.fbottom {
   padding: 20px;
   display: flex;
   flex-direction: column;
@@ -32,54 +34,53 @@ border-radius: 10px;
   gap: 15px;
 }
 
-.featuredChart{
+.featuredChart {
   width: 100px;
   height: 100px;
 }
 
-.ftitle2{
+.ftitle2 {
   color: rgb(128, 128, 128);
   font-weight: 400;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
-.famount{
+.famount {
   font-size: 45px;
 }
 
-.fdesc{
+.fdesc {
   color: rgb(128, 128, 128);
   text-align: center;
   font-size: 16px;
   font-weight: 300;
 }
 
-.summary{
+.summary {
   display: flex;
   align-items: center;
   justify-content: space-between;
   width: 100%;
 }
 
-.sitem{
-
+.sitem {
   text-align: center;
 }
 
-.itemTitle{
+.itemTitle {
   color: rgb(128, 128, 128);
 }
 
-.itemResult{
+.itemResult {
   display: flex;
   align-items: center;
   margin: 5px;
 }
 
-.itemResult.positive{
+.itemResult.positive {
   color: green;
 }
 
-.itemResult.negative{
+.itemResult.negative {
   color: red;
 }
